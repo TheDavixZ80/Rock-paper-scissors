@@ -1,3 +1,6 @@
-# Rock-paper-scissors
+# Rock Paper Scissors
 
-Preview link: [Rock, Paper, Scissors](TheDavixZ80.github.io/Rock-paper-scissors)
+This is my version of Rock, Paper, Scissors for the Odin Project.
+
+## See the Live Preview
+https://thedavixz80.github.io/Rock-paper-scissors/
