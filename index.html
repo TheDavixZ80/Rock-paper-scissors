@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Rock, Paper, Scissors Game</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="title">
+            <h1>ROCK, PAPER, SCISSORS!</h1>
+        </div>
+    </header>
+
+    <div class="board">
+        <p class="playerSelection"> - </p>
+        <p class="vs">vs</p>
+        <p class="cpuSelection"> - </p>
+    </div>
+
+    <div class="selectedOptions">
+        <p class="mypick"> - </p>
+        <h2 class="result"> Best of 5 Wins </h2>
+        <p class="cpupick"> - </p>
+    </div>
+
+    <!-- Buttons-->
+    <h2 class="buttons_title">Select one:</h2>
+    <div class="buttons">
+        <button id="pl_rock" value="Rock">Rock</button>
+        <button id="pl_paper" value="Paper">Paper</button>
+        <button id="pl_scissors" value="Scissors">Scissors</button>
+    </div>  
+
+    <div class="scores">
+        <p>Humano:</p>
+        <p class="humanScore">0</p>
+
+        <p>CPU: </p>
+        <p class="cpuScore">0</p>
+    </div>
+
+    <div class="modal hidden">
+        <p class="modal_message">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero minus dolor vitae animi dolorem adipisci eaque molestias, iste nobis illo laborum atque commodi quod nostrum sint reprehenderit dolorum, praesentium debitis.
+        </p>
+        <button class="btn_restartGame"> Restart Game</button>
+    </div>
+
+    <div class="overlay hidden"></div>
+
+    <!-- Footer-->
+    <div class="footer">
+        <p> Copyright © TheDavixZ80 - 2023</p>
+    </div>    
+
+    <script type="text/javascript" src="myjs.js"></script>
+</body>
+</html>
